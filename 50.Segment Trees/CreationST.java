@@ -20,6 +20,8 @@ public class CreationST{
         tree[sti] = tree[2*sti+1]+tree[2*sti+2];
         return tree[sti];//sti=>i bhi le skte h
     }
+
+    
     public static void main(String args[]){
         int arr[]={1,2,3,4,5,6,7,8};
         int n=arr.length;
@@ -28,5 +30,7 @@ public class CreationST{
         for(int i=0;i<tree.length;i++){
             System.out.print(tree[i]+" ");
         }
+
+        
     }
 }

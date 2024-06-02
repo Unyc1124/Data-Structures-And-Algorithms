@@ -23,7 +23,7 @@ public class SlidingWindow {
    public static void main(String args[]){
     int arr[]= {1,3,-1,-3,5,3,6,7};
     int k=3;//window size
-    int res[]=new int[arr.length-k+1];
+    int res[]=new int[arr.length-k+1];//n-k+1
     PriorityQueue<Pair> pq =new PriorityQueue<>();
 
     for(int i=0;i<k;i++){

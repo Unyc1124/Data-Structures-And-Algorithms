@@ -1,4 +1,4 @@
-public class QUMinMax {//Max -Min ke liye replace max ke jagah min
+public class QUMax {//Max -Min ke liye replace max ke jagah min
    
         static int tree[];
         public static void init(int n){

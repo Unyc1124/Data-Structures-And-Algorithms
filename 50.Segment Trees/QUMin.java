@@ -48,7 +48,7 @@
                 return;
             }
             // overlap
-            if( si == sj){
+            if( si == sj){//this for si=sj yani for ex (2,2)
                 tree[i]=newVal;
             }
             if( si!= sj){

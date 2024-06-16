@@ -1,4 +1,4 @@
-import java.util.*;
+
 
 public class Mcm{
 
@@ -66,7 +66,7 @@ public class Mcm{
                 }
             }
             print(dp);
-            return dp[1][n-1];//
+            return dp[1][n-1];
         }
 
         public static void print(int dp[][]){
@@ -83,7 +83,7 @@ public class Mcm{
     
     public static void main(String[] args){
         int arr[] ={1,2,3,4,3};
-        int n=arr.length;
+        // int n=arr.length;
         // System.out.println(mcm(arr,1,n-1));//rec
 
         // int dp[][]=new int[n][n];

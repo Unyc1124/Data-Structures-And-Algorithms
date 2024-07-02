@@ -151,7 +151,7 @@ public class Palindrome {
         }
         public static void main(String args[]){
            Palindrome ll= new Palindrome();
-            ll.addFirst(1); ll.addLast(2); ll.addLast(2); ll.addLast(1);
+            ll.addFirst(1); ll.addLast(3); ll.addLast(2); ll.addLast(1);
             ll.print();
             System.out.println(ll.checkPalindrome());
         }

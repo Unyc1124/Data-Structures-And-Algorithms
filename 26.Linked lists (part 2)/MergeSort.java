@@ -1,9 +1,24 @@
 import java.util.*;
 public class MergeSort {
 
+    public static class Node{
+        int data;
+        Node next;
+        //Constructor
+        public Node(int data){
+            this.data=data;
+            this.next=null;
+        }
+    }
+    public static Node head;
+    public static Node tail;
+    public static int size;
+
 
     public static void main(String args[]){
         LinkedList<Integer> list = new LinkedList<>();
+
+        
 
     }
     private Node getMid(Node head){
@@ -18,7 +33,7 @@ public class MergeSort {
 
 
     //merge fxn
-    private Node merge(Node head1, node head2){
+    private Node merge(Node head1, Node head2){
         Node mergedLL = new Node(-1);
         Node temp = mergedLL;
 
@@ -57,8 +72,8 @@ public class MergeSort {
         //left & right MS
         Node rightHead = mid.next;
         mid.next = null;
-        Node newLeft = mergerSort(head);
-        Node newRight = mergerSort(rightHead);
+        Node newLeft = mergeSort(head);
+        Node newRight = mergeSort(rightHead);
 
         //merge
         return merge(newLeft,newRight);

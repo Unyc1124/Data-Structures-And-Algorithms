@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class main {
+public class NQueen {
     public static void nQueen(char[][] board, int row) {
         if (row == board.length) {// base case
             display(board);

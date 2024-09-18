@@ -4,7 +4,8 @@ import java.util.*;
 public class Dequeclass {
     public static void main(String args[]){
         //already an interface named deque
-        Deque<Integer> deque = new LinkedList<>();
+        // Deque<Integer> deque = new LinkedList<>();
+         Deque<Integer> deque = new ArrayDeque<>();
         deque.addFirst(1);
         deque.addLast(2);
         deque.addFirst(3);

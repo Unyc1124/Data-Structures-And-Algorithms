@@ -1,4 +1,6 @@
 import java.util.*;
+import java.util.LinkedList;
+//important question asked in interview 
 public class Implementation{
 
     static class HashMap<K,V>{//K,V are generics like when data type can be anything int,boolean,ex.

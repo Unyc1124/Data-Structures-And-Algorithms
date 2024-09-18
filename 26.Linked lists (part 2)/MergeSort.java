@@ -66,7 +66,7 @@ public class MergeSort {
         if(head == null || head.next == null ){
             return head;
         }
-        //finf mid
+        //find mid
         Node mid = getMid(head);
 
         //left & right MS

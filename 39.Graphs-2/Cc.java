@@ -42,6 +42,7 @@ public class Cc{
          graph[5].add(new Edge(5,6,2));//5
      
       
+         dfs(graph);
         }
 
         public static void dfs(ArrayList<Edge> graph[]){
@@ -53,7 +54,7 @@ public class Cc{
      }
         
 public static void dfsUtil(ArrayList<Edge> graph[],int curr,boolean vis[]){
-    System.out.println(curr+" ");
+    System.out.print(curr+" ");
     vis[curr]=true;
     for(int i=0;i<graph[curr].size();i++){
         Edge e= graph[curr].get(i);
@@ -74,8 +75,8 @@ public static void bfs(ArrayList<Edge> graph[]){
 }
 
 public static void bfsUtil(ArrayList<Edge> graph[],boolean visited[]){
-    Queue<Integer> q=new LinkedList<>();
-  
+    Queue<Integer> q = new LinkedList<>();
+
     q.add(0);//src=0;
 
     while(!q.isEmpty()){

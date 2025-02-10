@@ -34,6 +34,8 @@ public class MergeSort{//O(nlogn)
         int j=mid+1;//itr for right
         int k=0;//itr for temp arr
 
+
+        // yaha basically jo bhi chota h wo store hojayega temp array 
         while(i<=mid && j<=ei){
             if(arr[i]<arr[j]){
                 temp[k]=arr[i];

@@ -97,7 +97,7 @@ public class ZigZag {
         Node right = prev ;
         Node nextL , nextR;
 
-        //alterante merging or zigzag merge
+        //alternate merging or zigzag merge
         while(left!=null && right != null) {
             nextL= left.next;
             left.next =right;
